@@ -12,7 +12,6 @@
 #include "kernel/param.h"
 
 #ifndef static_assert
-#define static_assert(a, b) do { switch (0) case 0: case (a): ; } while (0)
 #endif
 
 #define NINODES 200
